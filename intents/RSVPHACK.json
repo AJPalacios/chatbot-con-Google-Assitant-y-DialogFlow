@@ -1,0 +1,135 @@
+{
+  "id": "24db55bd-32e5-4d66-bd00-41237430d588",
+  "name": "RSVPHACK",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0a91b3cc-901a-4a27-a851-d2ac200e8a33",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Claro, para comenzar tu registro ¿podrías proporcionarme tu nombre?"
+            },
+            {
+              "lang": "es",
+              "value": "Muy bien, ¿Cual es tu nombre?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "530a142d-560b-4f8e-b137-c394ab240776",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Genial ¿cuantas personas hay en tu equipo?"
+            },
+            {
+              "lang": "es",
+              "value": "Muy bien, cuantas personas hay en tu equipo?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "7978fb8a-2b93-4b90-b7f2-29d0e1366c4e",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Excelente, a que dirección deben enviar tus boletos?"
+            },
+            {
+              "lang": "es",
+              "value": "Gracias, cual es tu correo para enviarte los boletos?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "54b9f7ec-641f-4541-9a91-38872039a670",
+          "required": true,
+          "dataType": "@TypeofHacker",
+          "name": "TypeofHacker",
+          "value": "$TypeofHacker",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Como describirias a los integrantes de tu equipo? (Makers, Devs, Negocios)"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "2a11a6e3-e298-477c-8f64-6f61e0ff2780",
+          "required": true,
+          "dataType": "@firstTime",
+          "name": "firstTime",
+          "value": "$firstTime",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Genial, es tu primer Hackaton ?"
+            },
+            {
+              "lang": "es",
+              "value": "Por ultimo, ¿Has ido a algun Hackaton antes?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "es",
+          "title": "React Hacks !",
+          "formattedText": "Gracias tu registro se ha realizado con exito 👌 nos vemos en el Hack !!",
+          "image": {
+            "url": "https://i.udemycdn.com/course/750x422/1362070_b9a1_2.jpg",
+            "accessibilityText": "Fotografia oficial hackaton"
+          },
+          "buttons": [
+            {
+              "title": "React Js hack",
+              "openUrlAction": {
+                "url": "https://www.youtube.com/ProCodeTutoriales"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Gracias tu registro se ha realizado con exito, happy coding!!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

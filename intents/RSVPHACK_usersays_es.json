@@ -1,0 +1,239 @@
+[
+  {
+    "id": "d67ee464-de03-47a9-a906-2e506c0bf08e",
+    "data": [
+      {
+        "text": "Somos ",
+        "userDefined": false
+      },
+      {
+        "text": "desarrolladores",
+        "alias": "TypeofHacker",
+        "meta": "@TypeofHacker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "525668ad-88d7-4ced-bdaa-f4c5e0c2045b",
+    "data": [
+      {
+        "text": "Si",
+        "alias": "firstTime",
+        "meta": "@firstTime",
+        "userDefined": false
+      },
+      {
+        "text": " estamos nerviosos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "febb6402-11f4-46b1-8dc7-21ddc9de0c10",
+    "data": [
+      {
+        "text": "SI",
+        "alias": "firstTime",
+        "meta": "@firstTime",
+        "userDefined": false
+      },
+      {
+        "text": " estoy nervioso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "46a868cc-758a-4599-a47f-15370940f70c",
+    "data": [
+      {
+        "text": "Si",
+        "alias": "firstTime",
+        "meta": "@firstTime",
+        "userDefined": false
+      },
+      {
+        "text": " estoy nerviosa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "390f8498-6699-46b0-8270-f0a3b4e01cbc",
+    "data": [
+      {
+        "text": "No",
+        "alias": "firstTime",
+        "meta": "@firstTime",
+        "userDefined": false
+      },
+      {
+        "text": " he ido a varios",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4ad118b2-5a09-4506-bc25-d7f72d6fab83",
+    "data": [
+      {
+        "text": "el correo es ",
+        "userDefined": false
+      },
+      {
+        "text": "hola@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6a52d1c3-9479-4e32-99e8-35ba454dcc39",
+    "data": [
+      {
+        "text": "al correo ",
+        "userDefined": false
+      },
+      {
+        "text": "hola@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ba4dbe2f-5f6e-45d7-b0d4-e09142b34115",
+    "data": [
+      {
+        "text": "MI equipo tiene ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " integrantes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4ea842e5-91f7-4744-9164-b00f10ed84f1",
+    "data": [
+      {
+        "text": "Somos ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " personas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "52bb833d-e79b-44af-ab95-faabcbae2c03",
+    "data": [
+      {
+        "text": "Me llamo ",
+        "userDefined": false
+      },
+      {
+        "text": "itzel",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3d79b633-3ff3-4a09-87f1-e35cfab85eb2",
+    "data": [
+      {
+        "text": "Mi nombre es ",
+        "userDefined": false
+      },
+      {
+        "text": "Adan",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6b404e36-4df7-46de-a7b7-814d9d7f2d1a",
+    "data": [
+      {
+        "text": "Quiero registrarme al Hackaton",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "47991e30-300d-4cc4-a6ce-865b29aff897",
+    "data": [
+      {
+        "text": "Quiero inscribirme al Hackaton",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a4d03f6d-a34b-4cce-b6e7-474984668509",
+    "data": [
+      {
+        "text": "Hola quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " boleto para Rocket Hacks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "id": "9e7e73c8-f31f-444a-b056-94121a1c2a2d",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¡Hola soy Cody 👋 y te ayudare a realizar tu registro!",
+            "¡Hey me llamo Cody y te ayudare a realizar tu registro!",
+            "¡Buenos días me llamo Cody y te ayudare a realizar tu registro!",
+            "Que onda soy Cody y te ayudare a realizar tu registro 🖖!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}
